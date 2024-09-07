@@ -1,0 +1,71 @@
+ @charset "ISO-8859-1";
+  body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 1rem 2rem;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        .navbar a:hover {
+            color: #00ff00;
+        }
+
+        .header {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            background: url("Emp-Mns-Sys-Img.jpeg") no-repeat center center;
+            background-size: cover;
+        }
+
+        .header-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+        }
+
+        .header-content h1 {
+            font-size: 3rem;
+        }
+
+        .header-content p {
+            font-size: 1.2rem;
+        }
+
+        .search-section {
+            background-color: #28a745;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .search-section input, .search-section select, .search-section button {
+            margin: 0.5rem;
+            padding: 0.5rem;
+        }
+
+        .search-section button {
+            background-color: #ffc107;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .search-section button:hover {
+            background-color: #e0a800;
+        }
